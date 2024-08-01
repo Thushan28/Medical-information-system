@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppines", sans-serif;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(landing.jpg);
+    background-size: cover;
+}
+
+.register{
+    width: 750px;
+    background: purple;
+    border-radius: 15px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 10px;  
+    padding: 20px; 
+
+}
+
+.register h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.input-box .Input-field{
+    position: relative;
+    width: 47%;
+    height: 50%;
+    margin: 20px 0;
+
+}
+
+.input-box .Input-field input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 7px;
+    padding: 15px 15px;
+
+}
+
+.input-box .Input-field input::placeholder{
+    color: #fff;
+}
+
+.register label{
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 0 20px;
+}
+
+.register .button{
+    width: 100%;
+    height: 30px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
